@@ -88,7 +88,13 @@ const Login = () => {
           <div className="login-detail-box">
             <input
               type="text"
-              placeholder="Name"
+              placeholder="FirstName"
+              className="login-username"
+              required
+            />
+            <input
+              type="text"
+              placeholder="LastName"
               className="login-username"
               required
             />
