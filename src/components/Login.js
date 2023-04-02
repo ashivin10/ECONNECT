@@ -1,5 +1,5 @@
-import React, { useState, useCallback } from "react";
-import SignUp from "./SignUp";
+import React, { useState} from "react";
+
 const Login = () => {
   const [toggleState, setToggleState] = useState(1);
 
