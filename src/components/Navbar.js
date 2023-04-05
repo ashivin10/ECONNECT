@@ -1,12 +1,13 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
+
 import Navbar from "react-bootstrap/Navbar";
-// import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import FacebookIcon from "@mui/icons-material/Facebook";
-// import TwitterIcon from "@mui/icons-material/Twitter";
+import Login from './Login';
+import './navbar.css';
 import { useState, useEffect } from "react";
-import Login from "./Login";
-function BasicExample() {
+
+function Navbar_2() {
+  
   const [activeState, setState] = useState("home");
   const [scrolled, seScrolled] = useState(false);
   useEffect(() => {
@@ -18,17 +19,9 @@ function BasicExample() {
       }
     };
   });
-  const [theme, setDarktheme] = useState("light");
-  const light = () => {
-    if (theme === "light") {
-      setDarktheme("dark");
-    } else {
-      setDarktheme("light");
-    }
-  };
-  // useEffect(() => {
-  //   document.body.className = "App";
-  // }, [theme]);
+  
+
+
   return (
     <div className="navbar">
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
@@ -94,27 +87,20 @@ function BasicExample() {
                   ></img>
                 </a>
               </div>
+
               <a href="#contact">
-                <button
-                  className="button"
-                  onClick={() => {
-                    console.log("connnect");
-                  }}
-                >
-                  <span>
-                    <a href="#" onClick={() => <Login />}>
-                      LOGIN
-                    </a>
-                  </span>
+                <button className="button">
+                  <span>LOGIN</span>
                 </button>
               </a>
-              {/* <DarkMode /> */}
             </span>
           </Navbar.Collapse>
         </Container>
+  
+                  
       </Navbar>
     </div>
   );
 }
 
-export default BasicExample;
+export default Navbar_2;

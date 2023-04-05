@@ -1,4 +1,5 @@
-import React, { useState} from "react";
+import React, { useState } from "react";
+
 import "animate.css";
 const Login = () => {
   const [toggleState, setToggleState] = useState(1);
