@@ -1,5 +1,5 @@
 import React, { useState} from "react";
-
+import "animate.css";
 const Login = () => {
   const [toggleState, setToggleState] = useState(1);
 
@@ -24,7 +24,7 @@ const Login = () => {
       </div>
       <div className="login-container">
         <div className="login-text">
-          <h1 className="login-text-pic">
+          <h2 className="login-logo">E-CONNECT</h2>          <h1 className="login-text-pic">
             Join now to have some real learning.{" "}
           </h1>
           <p className="login-text-pic">
@@ -33,7 +33,7 @@ const Login = () => {
         </div>
 
         <img
-          src="https://i.pinimg.com/564x/b1/8e/75/b18e754efa81155521ef65e752373de1.jpg"
+          src="https://i.pinimg.com/564x/d6/0c/da/d60cdad924bf2d5c35dafe1973a2d067.jpg"
           alt="side_pic"
         />
       </div>
@@ -43,7 +43,7 @@ const Login = () => {
       >
         <div className="login-section-2">
           <div className="login-box">
-            <h3 className="login-detail-head">Login</h3>
+            <h3 className="login-detail-head ">Login</h3>
             <p className="login-detail-subhead">Welcome to E-Connect</p>
             <p className="login-detail-subhead">
               Enter your details to continue your journey
