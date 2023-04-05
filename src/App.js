@@ -1,5 +1,5 @@
 
-// import "./App.css";
+import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Hero from "./components/Hero";
 import Login from "./components/Login";
@@ -8,7 +8,7 @@ function App() {
   
   return (
     <div className="App">
-      <Navbar/>
+   <Navbar/>
    <Hero/>
     </div>
   );
