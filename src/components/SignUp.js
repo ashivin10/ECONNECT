@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import Login from "./Login";
 import './style.css'
 const SignUp = () => {
@@ -17,7 +17,7 @@ const SignUp = () => {
                 name="name"
                 placeholder="Full Name"
                 required
-                value="<?php echo $name ?>"
+               
               />
             </div>
             <div className="form-group">
@@ -27,7 +27,7 @@ const SignUp = () => {
                 name="email"
                 placeholder="Email Address"
                 required
-                value="<?php echo $email ?>"
+             
               />
             </div>
             <div className="form-group">
@@ -57,7 +57,7 @@ const SignUp = () => {
               />
             </div>
             <div className="link login-link text-center">
-              Already a member?<Link to={Login}></Link>
+              <p>Already a member?<a href="">Login</a></p>
             </div>
           </form>
         </div>

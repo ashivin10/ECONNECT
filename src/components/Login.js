@@ -1,10 +1,10 @@
-import { useNavigate } from "react";
+import { useNavigate,Link } from "react-router-dom";
 import SignUp from "./SignUp";
+import axios from "axios";
 import "./style.css";
 import "animate.css";
 const Login = () => {
 
- 
   return (
     <div className="container">
       <div className="row">
@@ -41,13 +41,10 @@ const Login = () => {
               />
             </div>
             <div className="link login-link text-center">
-              <p>
-                Don't have an account?<a href="">Register</a>
-              </p>
+              <p>Don't have an account?
+                <a href="/signup">Register</a>
+                </p>
             </div>
-          
-              
-         
           </form>
         </div>
       </div>
