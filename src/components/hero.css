@@ -1,192 +1,188 @@
-    body {
-        overflow-x: hidden;
-    }
-    
-    .hero {
-        background-image: url("https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
-        background-size: cover;
-        width: 100%;
-        height: max-content;
-        padding: 200px;
-        color: black;
-        background-position: center;
-    }
-    
-    .hero-container {
-        margin-top: -40px;
-        background: rgba(255, 255, 255, 0.29);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(4.2px);
-        -webkit-backdrop-filter: blur(4.2px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        /* From https://css.glass */
-        background: rgba(255, 255, 255, 0.29);
-        border-radius: 16px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5.2px);
-        -webkit-backdrop-filter: blur(4.2px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        padding: 100px;
-    }
-    
-    .hero-taglines {
-        margin-left: -40px;
-        width: 100%;
-    }
-    
-    .hero-taglines h2 {
-        font-size: 30px;
-        font-weight: 600;
-        color: white;
-        width: 60%;
-        background: -webkit-linear-gradient(#041639, #260999);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    
-    .hero-button {
-        width: 50%;
-    }
-    
-    .hero-share-button {
-        background-color: white;
-        width: 300px;
-        padding: 25px;
-        height: 15px;
-        border-radius: 20px;
-        text-align: center;
-        margin-top: 30px;
-    }
-    
-    .hero-invite {
-        background-color: white;
-        width: 300px;
-        padding: 25px;
-        height: 15px;
-        border-radius: 20px;
-        text-align: center;
-        margin-top: 30px;
-    }
-    
-    .hero-taglines p {
-        font-size: 20px;
-        font-weight: 600;
-        background: -webkit-linear-gradient(#041639, #120447);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    
-    .search-tab img {
-        width: 25px;
-        margin-left: -45px;
-    }
-    
-    .search-tab {
-        margin-top: 40px;
-    }
-    
-    .search-tab input {
-        width: 90%;
-        height: 40px;
-        padding: 25px;
-        border-radius: 50px;
-        color: black;
-        outline: none;
-        border: none;
-        appearance: none;
-    }
-    
-    .hero-section-2 {
-        margin-top: 30px;
-    }
-    
+.hero {
+    background-image: url("https://images.pexels.com/photos/3182774/pexels-photo-3182774.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    width: 100%;
+    height: max-content;
+    padding: 200px;
+    color: black;
+    background-position: center;
+}
+
+.hero-container {
+    margin-top: -40px;
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.29);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.2px);
+    -webkit-backdrop-filter: blur(4.2px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 100px;
+}
+
+.hero-taglines {
+    margin-left: -40px;
+    width: 100%;
+}
+
+.hero-taglines h2 {
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    width: 60%;
+    background: -webkit-linear-gradient(#041639, #260999);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-button {
+    width: 50%;
+}
+
+.hero-share-button {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    height: 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-invite {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    height: 15px;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero-taglines p {
+    font-size: 20px;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#041639, #120447);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.search-tab img {
+    width: 25px;
+    margin-left: -45px;
+}
+
+.search-tab {
+    margin-top: 40px;
+}
+
+.search-tab input {
+    width: 90%;
+    height: 40px;
+    padding: 25px;
+    border-radius: 50px;
+    color: black;
+    outline: none;
+    border: none;
+    appearance: none;
+}
+
+.hero-section-2 {
+    margin-top: 30px;
+}
+
+.hero-courses {
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+    gap: 40px;
+}
+
+.hero-courses .hero-card {
+    background-color: white;
+    padding: 25px;
+}
+
+.hero-courses .hero-card p {
+    margin-top: 30px;
+}
+
+.hero-recommended-text {
+    font-weight: 800;
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.hero-card-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.hero-card-button button {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 150px;
+}
+
+@media screen and (max-width:1024px) {
     .hero-courses {
         display: flex;
-        flex-direction: row;
-        flex: 50%;
-        gap: 40px;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
     }
-    
     .hero-courses .hero-card {
-        background-color: white;
         padding: 25px;
     }
-    
-    .hero-courses .hero-card p {
-        margin-top: 30px;
+    .hero {
+        width: 100%;
     }
-    
+    .hero-container {
+        padding: 80px;
+        margin-left: -150px;
+    }
     .hero-recommended-text {
         font-weight: 800;
         background-color: rgb(0, 0, 0);
-        width: 500px;
+        width: 400px;
         color: white;
         margin-bottom: 30px;
     }
-    
+    .hero-courses {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-section-2 {
+        width: 100%;
+        margin-left: -150px;
+    }
+    .hero-courses .hero-card {
+        padding: 40px;
+        width: 100%;
+    }
     .hero-card-button {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
         margin-top: 20px;
     }
-    
     .hero-card-button button {
         background-color: black;
         color: white;
         text-align: center;
         padding: 15px;
         width: 150px;
+        margin-top: 30px;
     }
-    
-    @media screen and (max-width:1024px) {
-        .hero-courses {
-            display: flex;
-            flex-direction: column;
-            gap: 30px;
-            width: 100%;
-        }
-        .hero-courses .hero-card {
-            padding: 25px;
-        }
-        .hero {
-            width: 100%;
-        }
-        .hero-container {
-            padding: 80px;
-            margin-left: -150px;
-        }
-        .hero-recommended-text {
-            font-weight: 800;
-            background-color: rgb(0, 0, 0);
-            width: 400px;
-            color: white;
-            margin-bottom: 30px;
-        }
-        .hero-courses {
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-        .hero-section-2 {
-            width: 100%;
-            margin-left: -150px;
-        }
-        .hero-courses .hero-card {
-            padding: 40px;
-            width: 100%;
-        }
-        .hero-card-button {
-            display: flex;
-            margin-top: 20px;
-        }
-        .hero-card-button button {
-            background-color: black;
-            color: white;
-            text-align: center;
-            padding: 15px;
-            width: 150px;
-            margin-top: 30px;
-        }
-    }
+}

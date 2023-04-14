@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Overpass:wght@300&family=Poiret+One&family=Poppins:wght@300&display=swap");
-html,
 body {
     background: url('https://delawarelive.com/wp-content/uploads/2023/01/redd-f-9o8YdYGTT64-unsplash-1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -81,15 +80,16 @@ h2:hover {
     font-size: 14px;
 }
 
+
 /* error message */
 
 .error_msg {
     text-align: center;
-	width: 370px;
-	padding: 15px;
-	margin: 5px 0;
-	font-size: 16px;
-	color:  #f34646;
-	border-radius: 5px;
-	text-align: center;
+    width: 370px;
+    padding: 15px;
+    margin: 5px 0;
+    font-size: 16px;
+    color: #f34646;
+    border-radius: 5px;
+    text-align: center;
 }

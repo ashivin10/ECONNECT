@@ -33,7 +33,7 @@ function Navbar_2() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link
-                href="#home"
+                href="home"
                 className={
                   activeState === "home" ? "active navbar-link" : "navbar-link"
                 }
@@ -49,7 +49,7 @@ function Navbar_2() {
                 MEET
               </Nav.Link>
               <Nav.Link
-                href="#skills"
+                href="group"
                 className={
                   activeState === "group" ? "active navbar-link" : "navbar-link"
                 }
@@ -57,7 +57,7 @@ function Navbar_2() {
                 GROUP
               </Nav.Link>
               <Nav.Link
-                href="#projects"
+                href="#"
                 className={
                   activeState === "chat" ? "active navbar-link" : "navbar-link"
                 }
