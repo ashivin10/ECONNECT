@@ -80,3 +80,16 @@ h2:hover {
 .container .row .alert {
     font-size: 14px;
 }
+
+/* error message */
+
+.error_msg {
+    text-align: center;
+	width: 370px;
+	padding: 15px;
+	margin: 5px 0;
+	font-size: 16px;
+	color:  #f34646;
+	border-radius: 5px;
+	text-align: center;
+}

@@ -15,7 +15,17 @@ const SignUp = () => {
                 className="form-control"
                 type="text"
                 name="name"
-                placeholder="Full Name"
+                placeholder="First Name"
+                required
+               
+              />
+              </div>
+              <div className="form-group">
+              <input
+                className="form-control"
+                type="text"
+                name="name"
+                placeholder="Last Name"
                 required
                
               />
@@ -57,7 +67,7 @@ const SignUp = () => {
               />
             </div>
             <div className="link login-link text-center">
-              <p>Already a member?<a href="">Login</a></p>
+              <p>Already a member?<a href="/login">Login</a></p>
             </div>
           </form>
         </div>
