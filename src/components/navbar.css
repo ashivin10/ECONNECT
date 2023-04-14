@@ -101,7 +101,7 @@ nav.navbar {
     z-index: 9999;
     transition: 0.32s ease-in-out;
     background-color: #121212;
-    margin-left: -50%;
+    left: 0;
 }
 
 nav.navbar.scrolled {

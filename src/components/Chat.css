@@ -3,6 +3,7 @@
     flex-direction: column;
     flex: 0.7;
     background-color: #ffffff;
+    margin-top: 100px;
 }
 
 .chat_header {

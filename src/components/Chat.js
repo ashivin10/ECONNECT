@@ -10,6 +10,7 @@ import React, { useState } from "react";
 import axios from "./axios.js";
 import "./Chat.css";
 import { purple } from "@mui/material/colors";
+import Navbar from './Navbar.js'
 function Chat({ messages }) {
   const [input, setinput] = useState("");
 
@@ -26,6 +27,7 @@ function Chat({ messages }) {
   return (
     <>
       <div className="chat">
+        <Navbar/>
         <div className="chat_header">
           <Avatar />
           <div className="header_info">

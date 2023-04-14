@@ -33,9 +33,8 @@ const Hero = () => {
   }, [messages]);
   return (
     <div className="App">
-      <Navbar />
-
       <div className="hero">
+        <Navbar />
         <div className="hero-container">
           <div className="hero-taglines">
             <h2>Welcome to E - Connect</h2>
@@ -200,7 +199,6 @@ const Hero = () => {
               <button>SHARE</button>
             </div>
           </div>
-          
         </div>
       </div>
     </div>

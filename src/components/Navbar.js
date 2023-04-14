@@ -33,7 +33,7 @@ function Navbar_2() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link
-                href="home"
+                href="/"
                 className={
                   activeState === "home" ? "active navbar-link" : "navbar-link"
                 }
