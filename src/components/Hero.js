@@ -200,60 +200,7 @@ const Hero = () => {
               <button>SHARE</button>
             </div>
           </div>
-          <div className="card">
-            <img
-              src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png"
-              alt="web"
-            />
-            <div className="card-info">
-              <h1>WEB DEVELOPMENT</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
-                aspernatur natus laborum vel. Eius.
-              </p>
-            </div>
-            <div class="button">
-              <button>JOIN NOW</button>
-              <button>SHARE</button>
-            </div>
-          </div>
-          <div className="card">
-            <img
-              src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png"
-              alt="web"
-            />
-            <div className="card-info">
-              <h1>WEB DEVELOPMENT</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
-                aspernatur natus laborum vel. Eius.
-              </p>
-            </div>
-            <div class="button">
-              <button>JOIN NOW</button>
-              <button>SHARE</button>
-            </div>
-          </div>
-          <div className="card">
-            <img
-              src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png"
-              alt="web"
-            />
-            <div className="card-info">
-              <h1>WEB DEVELOPMENT</h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
-                aspernatur natus laborum vel. Eius.
-              </p>
-            </div>
-            <div class="button">
-              <button>JOIN NOW</button>
-              <button>SHARE</button>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
