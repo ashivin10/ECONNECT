@@ -462,7 +462,11 @@ button:hover {
 
 .card-course {
     margin-top: 20%;
-    padding: 40px;
+    padding: 60px;
+}
+
+.past-course {
+    margin-top: 10%;
 }
 
 .card-course h1 {
@@ -473,11 +477,34 @@ button:hover {
 .live-meeting {
     display: flex;
     gap: 30px;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 100px 20px;
+    justify-content: center;
+}
+
+.past-meeting {
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    justify-content: center;
 }
 
 .card h1 {
     text-align: left;
     color: black !important;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card {
+    width: 40%;
 }
 
 .card-info {

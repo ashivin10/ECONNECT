@@ -41,12 +41,12 @@ function Navbar_2() {
                 HOME
               </Nav.Link>
               <Nav.Link
-                href="#about"
+                href="/learn"
                 className={
-                  activeState === "meet" ? "active navbar-link" : "navbar-link"
+                  activeState === "learn" ? "active navbar-link" : "navbar-link"
                 }
               >
-                MEET
+                LEARN
               </Nav.Link>
               <Nav.Link
                 href="group"

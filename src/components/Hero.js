@@ -189,7 +189,7 @@ const Hero = () => {
             <div className="card-info">
               <p>Instrctor : XXX , IIT Madras</p>
               <h1>WEB DEVELOPMENT</h1>
-              <h4>12 Weeks Course</h4>
+              <h4>Duration - 12 Weeks Course</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
@@ -211,7 +211,7 @@ const Hero = () => {
             <div className="card-info">
               <p>Instrctor : XXX , IIT Madras</p>
               <h1>CYBER SECURITY</h1>
-              <h4>12 Weeks Course</h4>
+              <h4>Duration - 12 Weeks Course</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
@@ -223,31 +223,98 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          {
-            /*3rd*/
-            <div className="card">
-              <img
-                src="https://www.fsm.ac.in/blog/wp-content/uploads/2022/08/ml-e1610553826718.jpg"
-                alt="web"
-              />
-              <div className="card-info">
-                <p>Instrctor : XXX , IIT Madras</p>
-                <h1>MACHINE LEARNING</h1>
-                <h4>8 Weeks Course</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Voluptates, aut ab. Fuga exercitationem dignissimos
-                  perferendis aspernatur natus laborum vel. Eius.
-                </p>
-                <div class="button">
-                  <button>JOIN</button>
-                  <button>SHARE</button>
-                </div>
+
+          {/*3rd*/}
+          <div className="card">
+            <img
+              src="https://assets.toptal.io/images?url=https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1129714/regular_1708x683_cover-0323-MachineLearning_Dan_Newsletter-b21703f41d807514083e297955e1b46d.png"
+              alt="web"
+            />
+            <div className="card-info">
+              <p>Instrctor : XXX , IIT Madras</p>
+              <h1>MACHINE LEARNING</h1>
+              <h4>Duration - 8 Weeks Course</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
+                aspernatur natus laborum vel. Eius.
+              </p>
+              <div class="button">
+                <button>JOIN</button>
+                <button>SHARE</button>
               </div>
             </div>
-          }
+          </div>
+
+          <div className="card">
+            <img
+              src="https://contentstatic.techgig.com/photo/80158672/top-4-web-development-trends-in-2021.jpg?119426"
+              alt="web"
+            />
+            <div className="card-info">
+              <p>Instrctor : XXX , IIT Madras</p>
+              <h1>WEB DEVELOPMENT</h1>
+              <h4>Duration - 12 Weeks Course</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
+                aspernatur natus laborum vel. Eius.
+              </p>
+              <div class="button">
+                <button>JOIN</button>
+                <button>SHARE</button>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <img
+              src="https://contentstatic.techgig.com/photo/80158672/top-4-web-development-trends-in-2021.jpg?119426"
+              alt="web"
+            />
+            <div className="card-info">
+              <p>Instrctor : XXX , IIT Madras</p>
+              <h1>WEB DEVELOPMENT</h1>
+              <h4>Duration - 12 Weeks Course</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
+                aspernatur natus laborum vel. Eius.
+              </p>
+              <div class="button">
+                <button>JOIN</button>
+                <button>SHARE</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <img
+              src="https://contentstatic.techgig.com/photo/80158672/top-4-web-development-trends-in-2021.jpg?119426"
+              alt="web"
+            />
+            <div className="card-info">
+              <p>Instrctor : XXX , IIT Madras</p>
+              <h1>WEB DEVELOPMENT</h1>
+              <h4>Duration - 12 Weeks Course</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
+                aspernatur natus laborum vel. Eius.
+              </p>
+              <div class="button">
+                <button>JOIN</button>
+                <button>SHARE</button>
+              </div>
+            </div>
+          </div>
         </div>
+        <footer>
+          <div className="footer">
+            <p>Copyrights reserved by BROGRAMMERS</p>
+          </div>
+        </footer>
       </div>
+      
     </div>
   );
 };

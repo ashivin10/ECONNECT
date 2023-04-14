@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar";
 import Chat from "./components/Chat";
 import Sidebar from "./components/Sidebar";
 import axios from "./components/axios";
+import Course from "./components/Courses";
 import Pusher from "pusher-js";
 function App() {
   const [messages, setmessages] = useState([]);
@@ -42,6 +43,7 @@ function App() {
         <Route path="/signup" exact element={<SignUp />} />
         <Route path="/login" exact element={<Login />} />
         <Route path="/" element={<Navigate replace to="/login" />} />
+        <Route path="/learn" element={<Course />} />
       </Routes>
       <div className="app_body">
         <Routes>
@@ -55,7 +57,6 @@ function App() {
             }
           />
         </Routes>
-        
       </div>
     </div>
   );
