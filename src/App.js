@@ -9,8 +9,6 @@ import Chat from "./components/Chat";
 import Sidebar from "./components/Sidebar";
 import axios from "./components/axios";
 import Pusher from "pusher-js";
-
-import "./App.css";
 function App() {
   const [messages, setmessages] = useState([]);
 
@@ -39,7 +37,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" exact element={<Hero />} />}
+        <Route path="/" exact element={<Hero />} />
         <Route path="/" element={<Navigate replace to="/login" />} />
         <Route path="/signup" exact element={<SignUp />} />
         <Route path="/login" exact element={<Login />} />

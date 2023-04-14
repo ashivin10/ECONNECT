@@ -1,12 +1,8 @@
-h2 {
-    color: white;
-}
-
 .chat {
     display: flex;
     flex-direction: column;
     flex: 0.7;
-    background-color: #242424;
+    background-color: #ffffff;
 }
 
 .chat_header {
@@ -23,7 +19,7 @@ h2 {
 .header_info>h2 {
     margin-bottom: 3px;
     font-weight: 500;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .header_info>p {
@@ -32,11 +28,7 @@ h2 {
 
 .chat_body {
     flex: 1;
-    background: #3A1C71;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71);
+    background: #242424;
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 30px;
     overflow: scroll;

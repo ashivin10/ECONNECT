@@ -19,7 +19,6 @@ body {
     min-height: 10%;
     overflow-x: hidden;
     color: #fff !important;
-    background-color: #020202 !important;
     font-family: "Centra", sans-serif !important;
 }
 
@@ -189,11 +188,12 @@ span.navbar-text {
     font-weight: 700;
     color: #fff;
     border: 1px solid #fff;
-    padding: 18px 34px;
-    font-size: 18px;
+    padding: 5px 34px;
+    font-size: 14px !important;
     margin-left: 18px;
     position: relative;
     background-color: transparent;
+    text-align: center;
     transition: 0.3s ease-in-out;
 }
 

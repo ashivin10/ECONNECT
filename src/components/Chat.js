@@ -67,7 +67,7 @@ function Chat({ messages }) {
 
         <div className="chat_footer">
           <IconButton>
-            <InsertEmoticonIcon />
+            <InsertEmoticonIcon sx={{ color: purple[800] }} />
           </IconButton>
           <form action="">
             <input
@@ -83,7 +83,7 @@ function Chat({ messages }) {
             </button>
           </form>
           <IconButton>
-            <MicIcon />
+            <MicIcon sx={{ color: purple[800] }} />
           </IconButton>
         </div>
       </div>
