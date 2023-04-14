@@ -197,6 +197,7 @@ const Hero = () => {
             </div>
             <div class="button">
               <button>JOIN NOW</button>
+              <button>SHARE</button>
             </div>
           </div>
           <div className="card">
@@ -214,6 +215,7 @@ const Hero = () => {
             </div>
             <div class="button">
               <button>JOIN NOW</button>
+              <button>SHARE</button>
             </div>
           </div>
           <div className="card">
@@ -231,6 +233,7 @@ const Hero = () => {
             </div>
             <div class="button">
               <button>JOIN NOW</button>
+              <button>SHARE</button>
             </div>
           </div>
           <div className="card">
@@ -248,6 +251,7 @@ const Hero = () => {
             </div>
             <div class="button">
               <button>JOIN NOW</button>
+              <button>SHARE</button>
             </div>
           </div>
         </div>
