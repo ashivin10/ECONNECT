@@ -183,22 +183,69 @@ const Hero = () => {
         <div className="live-meeting">
           <div className="card">
             <img
-              src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png"
+              src="https://contentstatic.techgig.com/photo/80158672/top-4-web-development-trends-in-2021.jpg?119426"
               alt="web"
             />
             <div className="card-info">
+              <p>Instrctor : XXX , IIT Madras</p>
               <h1>WEB DEVELOPMENT</h1>
+              <h4>12 Weeks Course</h4>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
                 aspernatur natus laborum vel. Eius.
               </p>
-            </div>
-            <div class="button">
-              <button>JOIN NOW</button>
-              <button>SHARE</button>
+              <div class="button">
+                <button>JOIN</button>
+                <button>SHARE</button>
+              </div>
             </div>
           </div>
+
+          {/* 2ND */}
+          <div className="card">
+            <img
+              src="https://elearningindustry.com/wp-content/uploads/2021/10/Cybersecurity-Engagement-7-Tips-For-Employees.jpg"
+              alt="web"
+            />
+            <div className="card-info">
+              <p>Instrctor : XXX , IIT Madras</p>
+              <h1>CYBER SECURITY</h1>
+              <h4>12 Weeks Course</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptates, aut ab. Fuga exercitationem dignissimos perferendis
+                aspernatur natus laborum vel. Eius.
+              </p>
+              <div class="button">
+                <button>JOIN</button>
+                <button>SHARE</button>
+              </div>
+            </div>
+          </div>
+          {
+            /*3rd*/
+            <div className="card">
+              <img
+                src="https://www.fsm.ac.in/blog/wp-content/uploads/2022/08/ml-e1610553826718.jpg"
+                alt="web"
+              />
+              <div className="card-info">
+                <p>Instrctor : XXX , IIT Madras</p>
+                <h1>MACHINE LEARNING</h1>
+                <h4>8 Weeks Course</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptates, aut ab. Fuga exercitationem dignissimos
+                  perferendis aspernatur natus laborum vel. Eius.
+                </p>
+                <div class="button">
+                  <button>JOIN</button>
+                  <button>SHARE</button>
+                </div>
+              </div>
+            </div>
+          }
         </div>
       </div>
     </div>

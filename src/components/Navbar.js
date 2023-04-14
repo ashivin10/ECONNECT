@@ -54,16 +54,9 @@ function Navbar_2() {
                   activeState === "group" ? "active navbar-link" : "navbar-link"
                 }
               >
-                GROUP
+                GROUP CHAT
               </Nav.Link>
-              <Nav.Link
-                href="#"
-                className={
-                  activeState === "chat" ? "active navbar-link" : "navbar-link"
-                }
-              >
-                CHAT
-              </Nav.Link>
+              
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
