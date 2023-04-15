@@ -1,8 +1,7 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
-
+import { Avatar,IconButton } from '@mui/material'
 import Navbar from "react-bootstrap/Navbar";
-import Login from './Login';
 import './navbar.css';
 import { useState, useEffect } from "react";
 
@@ -20,6 +19,7 @@ function Navbar_2() {
     };
   });
   
+  const user_name = localStorage.getItem("user");
 
 
   return (
@@ -66,32 +66,14 @@ function Navbar_2() {
               </Nav.Link>
             </Nav>
             <span className="navbar-text">
-              <div className="social-icon">
-                <a href="https://www.linkedin.com">
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/2584/2584689.png"
-                    alt=""
-                  ></img>
-                </a>
-                <a href="https://github.com">
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png"
-                    alt=""
-                    className="social-git"
-                  ></img>
-                </a>
-                <a href="https://discord.com/">
-                  <img
-                    src="https://cdn-icons-png.flaticon.com/512/2891/2891202.png"
-                    alt=""
-                  ></img>
-                </a>
-              </div>
+              
 
               <a href="#contact">
-                <button className="button">
-                  <span>LOGIN</span>
-                </button>
+              <div className="avatar">
+                <Avatar/>
+                <h2>{user_name}</h2>
+              </div>
+
               </a>
             </span>
           </Navbar.Collapse>

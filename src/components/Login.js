@@ -16,9 +16,11 @@ const Login = () => {
   const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const url = "https://crowded-sun-hat-toad.cyclic.app/api/auth";
+			const url = "http://localhost:8080/api/auth";
 			const { data: res } = await axios.post(url, data);
 			localStorage.setItem("token", res.data);
+      localStorage.setItem("user", res.user);
+
 			window.location = "/";
 		} catch (error) {
 			if (

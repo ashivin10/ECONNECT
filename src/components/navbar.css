@@ -103,7 +103,18 @@ nav.navbar {
     background-color: #121212;
     left: 0;
 }
-
+.avatar{
+    display: flex;
+    color: #aa367c;
+    justify-content: space-between;
+    width: 102px;
+}
+.avatar h2{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 5px;
+    font-weight: 500;
+}
 nav.navbar.scrolled {
     padding: 0px 0;
     background-color: #121212;
@@ -1100,3 +1111,4 @@ iframe {
     background-color: #fff !important;
     color: #333 !important;
 }
+
