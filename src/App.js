@@ -6,6 +6,12 @@ import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import Navbar from "./components/Navbar";
 import Chatpage from './components/Chatpage'
+
+import Chat from "./components/Chat";
+import Sidebar from "./components/Sidebar";
+import axios from "./components/axios";
+import Course from "./components/Courses";
+import Pusher from "pusher-js";
 function App() {
   
   const user = localStorage.getItem("token");
@@ -19,6 +25,8 @@ function App() {
         <Route path="/" element={<Navigate replace to="/login" />} />
         <Route path="/signup" exact element={<SignUp />} />
         <Route path="/login" exact element={<Login />} />
+        <Route path="/" element={<Navigate replace to="/login" />} />
+        <Route path="/learn" element={<Course />} />
       </Routes>
       <div className="app_body">
         <Routes>
@@ -29,7 +37,6 @@ function App() {
             }
           />
         </Routes>
-        
       </div>
     </div>
   );

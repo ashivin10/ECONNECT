@@ -41,12 +41,12 @@ function Navbar_2() {
                 HOME
               </Nav.Link>
               <Nav.Link
-                href="#about"
+                href="/learn"
                 className={
-                  activeState === "meet" ? "active navbar-link" : "navbar-link"
+                  activeState === "learn" ? "active navbar-link" : "navbar-link"
                 }
               >
-                MEET
+                LEARN
               </Nav.Link>
               <Nav.Link
                 href="group"
@@ -54,16 +54,9 @@ function Navbar_2() {
                   activeState === "group" ? "active navbar-link" : "navbar-link"
                 }
               >
-                GROUP
+                GROUP CHAT
               </Nav.Link>
-              <Nav.Link
-                href="#"
-                className={
-                  activeState === "chat" ? "active navbar-link" : "navbar-link"
-                }
-              >
-                CHAT
-              </Nav.Link>
+              
             </Nav>
             <span className="navbar-text">
               
