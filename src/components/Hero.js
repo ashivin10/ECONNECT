@@ -59,8 +59,8 @@ const Hero = () => {
                       repellendus ducimus optio qui impedit maiores. Aliquam.
                     </p>
                     <div class="button">
-                      <button>DISCUSS</button>
-                      <button>MEET</button>
+                      <button>JOIN</button>
+                      <button>MORE..</button>
                     </div>
                   </div>
                 </li>
@@ -87,8 +87,8 @@ const Hero = () => {
                       repellendus ducimus optio qui impedit maiores. Aliquam.
                     </p>
                     <div class="button">
-                      <button>DISCUSS</button>
-                      <button>MEET</button>
+                      <button>JOIN</button>
+                      <button>MORE..</button>
                     </div>
                   </div>
                 </li>
@@ -115,8 +115,8 @@ const Hero = () => {
                       repellendus ducimus optio qui impedit maiores. Aliquam.
                     </p>
                     <div class="button">
-                      <button>DISCUSS</button>
-                      <button>MEET</button>
+                      <button>JOIN</button>
+                      <button>MORE..</button>
                     </div>
                   </div>
                 </li>
@@ -143,8 +143,8 @@ const Hero = () => {
                       repellendus ducimus optio qui impedit maiores. Aliquam.
                     </p>
                     <div class="button">
-                      <button>DISCUSS</button>
-                      <button>MEET</button>
+                      <button>JOIN</button>
+                      <button>MORE..</button>
                     </div>
                   </div>
                 </li>

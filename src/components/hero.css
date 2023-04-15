@@ -403,7 +403,10 @@ body #scene #right-zone {
     height: 100%;
     flex-grow: 3;
 }
-
+.hero-recommended-text{
+    margin: 10px;
+    z-index: 200;
+}
 @media screen and (max-width:1024px) {
     .hero-courses {
         display: flex;

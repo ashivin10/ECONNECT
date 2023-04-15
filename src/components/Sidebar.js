@@ -8,12 +8,15 @@ import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import SidebarChat from './SidebarChat';
 import { purple } from "@mui/material/colors";
 function sidebar() {
+  const user_name = localStorage.getItem("user");
+
   return (
     <>
       <div className="sidebar">
         <div className="header">
           <div className="avatar">
             <Avatar />
+            <h3>{user_name}</h3>
           </div>
           <div className="left_header">
             <IconButton>
@@ -35,12 +38,7 @@ function sidebar() {
         </div>
         <div className="sidebar_chat">
           <SidebarChat />
-          <SidebarChat />
-          <SidebarChat />
-          <SidebarChat />
-          <SidebarChat />
-                  <SidebarChat />
-                  
+          <SidebarChat />                  
         </div>
       </div>
     </>

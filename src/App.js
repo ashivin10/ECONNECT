@@ -7,11 +7,8 @@ import SignUp from "./components/SignUp";
 import Navbar from "./components/Navbar";
 import Chatpage from './components/Chatpage'
 
-import Chat from "./components/Chat";
-import Sidebar from "./components/Sidebar";
-import axios from "./components/axios";
+
 import Course from "./components/Courses";
-import Pusher from "pusher-js";
 function App() {
   
   const user = localStorage.getItem("token");

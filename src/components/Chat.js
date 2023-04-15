@@ -26,14 +26,17 @@ axios.interceptors.request.use(
     }
 )
 function Chat({ messages }) {
+  const user_name = localStorage.getItem("user");
 
   const [input, setinput] = useState("");
   const [data, setData] = useState({ message: input, roomid: "642c721cdaeaa06385f8c5c4",name:"me",received:false });
 
   const sendMessage = async (e) => {
-    console.log(token)
+    // setData({ message: input, roomid: "642c721cdaeaa06385f8c5c4",name:"me",received:false });
+    // console.log(data)
+
     e.preventDefault();
-    await axios.post("http://localhost:8080/api/messages/new", data);
+    await axios.post("http://localhost:8080/api/messages/new", { message: input, roomid: "642c721cdaeaa06385f8c5c4",name:user_name,received:false });
     setinput("");
   };
   return (
@@ -41,10 +44,10 @@ function Chat({ messages }) {
       <div className="chat">
         <Navbar/>
         <div className="chat_header">
-          <Avatar />
+          <Avatar  src="https://contentstatic.techgig.com/photo/80158672/top-4-web-development-trends-in-2021.jpg?119426"/>
           <div className="header_info">
-            <h2>Room</h2>
-            <p>Last seen at ...</p>
+            <h2>WEB DEVELOPMENT</h2>
+            <p>Instrctor : XXX , IIT Madras</p>
           </div>
           <div className="header_right">
             <IconButton>

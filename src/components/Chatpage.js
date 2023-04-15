@@ -27,11 +27,7 @@ function Chatpage() {
   
 
   useEffect(() => {
-    axios.get(url,{
-        params: {
-          'roomid':"642c721cdaeaa06385f8c5c4" 
-        }
-      }).then((response) => {
+    axios.get(url).then((response) => {
       setmessages(response.data);
     });
   }, []);
