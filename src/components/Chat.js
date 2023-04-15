@@ -7,21 +7,33 @@ import MicIcon from "@mui/icons-material/Mic";
 import SendIcon from "@mui/icons-material/Send";
 import SendSharpIcon from "@mui/icons-material/SendSharp";
 import React, { useState } from "react";
-import axios from "./axios.js";
+import axios from "axios";
 import "./Chat.css";
 import { purple } from "@mui/material/colors";
 import Navbar from './Navbar.js'
+
+
+const url ='http://localhost:8080/api/messages/sync'
+const token = localStorage.getItem("token");
+
+axios.interceptors.request.use(
+    config =>{
+        config.headers.authorization =`Bearer ${token}`
+        return config
+    },
+    error=>{
+        return Promise.reject(error);
+    }
+)
 function Chat({ messages }) {
+
   const [input, setinput] = useState("");
+  const [data, setData] = useState({ message: input, roomid: "642c721cdaeaa06385f8c5c4",name:"me",received:false });
 
   const sendMessage = async (e) => {
+    console.log(token)
     e.preventDefault();
-    await axios.post("http://localhost:9000/messages/new", {
-      message: input,
-      name: "me",
-      timestamp: "now",
-      received: false,
-    });
+    await axios.post("http://localhost:8080/api/messages/new", data);
     setinput("");
   };
   return (
@@ -59,12 +71,6 @@ function Chat({ messages }) {
             </p>
           ))}
 
-          {/* <p className='chat_reciver chat_message'>
-                    <span className="chat_name">arshan</span>                                   
-                    this is a message
-                    <span className="chat_timestamp">{new Date().toUTCString()}</span>
-
-                </p> */}
         </div>
 
         <div className="chat_footer">
@@ -79,9 +85,7 @@ function Chat({ messages }) {
               placeholder="Type a Message"
             />
             <button onClick={sendMessage} type="submit">
-              <IconButton>
                 <SendSharpIcon sx={{ color: purple[800] }} />
-              </IconButton>
             </button>
           </form>
           <IconButton>

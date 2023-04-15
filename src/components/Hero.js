@@ -3,34 +3,11 @@ import "./hero.css";
 import Pusher from "pusher-js";
 import Chat from "./Chat.js";
 import Sidebar from "./Sidebar.js";
-import axios from "./axios.js";
 import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 
 const Hero = () => {
-  const [messages, setmessages] = useState([]);
-
-  useEffect(() => {
-    axios.get("http://localhost:9000/messages/sync").then((response) => {
-      setmessages(response.data);
-    });
-  }, []);
-
-  useEffect(() => {
-    const pusher = new Pusher("95fa3a1a032bda77a987", {
-      cluster: "ap2",
-    });
-
-    const channel = pusher.subscribe("messages");
-    channel.bind("inserted", function (newmessages) {
-      setmessages([...messages, newmessages]);
-    });
-
-    return () => {
-      channel.unbind_all();
-      channel.unsubscribe();
-    };
-  }, [messages]);
+  
   return (
     <div className="App">
       <div className="hero">
